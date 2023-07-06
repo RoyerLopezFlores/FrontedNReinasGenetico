@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style/index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="contenedor" >
+        
+        <div id="ctn-tablas">
+            
+        </div>
+        <div id="detalles">
+            <div id="herramientas">
+                <div class="item-herramienta">
+                    <label id="value-herramienta-casillas">Casillas</label>
+                    <input id="herramienta-casillas" type="range" min="1" max="8" step="1" value="1">
+                </div>
+                <div class="item-herramienta">
+                    <label id="value-herramienta-longitud">Longitud</label>
+                    <input id="herramienta-longitud" type="range" min="8" max="40" step="1" value="8">
+                </div>
+                <button id="btn-inciar">Go</button>
+                <button id="btn-utitma-generacion">Mostrar Ultimo</button>
+            </div>
+            <div id="info-genitico">
+                <label id="lbl-iteraciones"></label>
+                <label id="lbl-generaciones"></label>
+            </div>
+
+        </div>
+    </div>
+    <script src="./assets/HtmlController.js"></script>
+    <script src="./assets/GrillaController.js"></script>  
+    <script src="./assets/index.js"></script>
+
+</body>
+</html>
